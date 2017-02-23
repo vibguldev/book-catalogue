@@ -12,7 +12,6 @@ export default class App extends React.Component {
   }
 
 update(detail) {
-  console.log("hello main")
     this.setState({bookView: {price: detail.price, discount: detail.discount, aboutAuthor: detail.aboutAuthor}})
   }
   
